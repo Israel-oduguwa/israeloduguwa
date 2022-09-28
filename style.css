@@ -11,14 +11,29 @@ body{
     font-family: 'Inter', sans-serif;
     /* font-family: 'Poppins', sans-serif; */
 }
+h2{
+    font-weight: 600;
+}
+h5{
+    font-weight: 600;
+}
 p{
-    line-height: 1.5;
+    line-height: 1.6;
     /* font-family: Poppins; */
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 0.35em;
     font-weight: 400;
     margin-top: 24px;
+}
+.form-label{
+    line-height: 1.5;
+    /* font-family: Poppins; */
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.35em;
+    font-weight: 400;
+    margin-top: 10px;
 }
 ul{
     list-style: none;
@@ -37,8 +52,9 @@ header{
     margin: 0 auto;
 }
 .contacts{
-    max-width:800px;
+    max-width:700px;
     margin: 0 auto;
+    color:#110F31!important;
 }
 a{
     text-decoration: none;
@@ -55,11 +71,11 @@ a{
     display: inline-flex;
     margin: 0 16px 0 0;
     font-size: 1.3rem;
+    color:#110F31!important;
     text-align: center;
-    color: var(--c-text-main);
 }
 .social-links a:hover {
-    color: var(--c-primary-main);
+   color: #7462e1
 }
 .order{
     order: -1;
@@ -69,6 +85,10 @@ a{
 }
 .no-text-center-sm{
     text-align: start!important;
+}
+.form-control{
+    line-height: 1.7;
+    border-radius: 6px;
 }
 @media (min-width: 768px){
     .order {
@@ -129,5 +149,5 @@ a{
 }
 .about-services{
     background: #0f1221;
-    color:#ffff;
+    color:#eaefff;
 }
