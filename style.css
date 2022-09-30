@@ -20,7 +20,7 @@ h5{
 p{
     line-height: 1.6;
     /* font-family: Poppins; */
-    font-size: 1rem;
+    font-size: 1.02rem;
     font-weight: 400;
     margin-bottom: 0.35em;
     font-weight: 400;
@@ -136,6 +136,14 @@ a{
 .btn-big{
     padding: 12px 28px;
     height: 50px;
+}
+.navbar-toggler{
+    border: none;
+    text-decoration: none;
+}
+.navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
 }
 .primary-btn:disabled {
     cursor: default;
