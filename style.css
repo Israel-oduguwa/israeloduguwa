@@ -50,9 +50,7 @@ header{
     background: #eff0f4;
     /* padding-bottom:2rem;  */
 }
-.form-control {
-    border: 0;
-}
+
 .bg-dark{
     background-color: #0f1221!important;
 }
@@ -95,8 +93,13 @@ a{
 .no-text-center-sm{
     text-align: start!important;
 }
+.offcanvas.hiding, .offcanvas.show, .offcanvas.showing {
+    visibility: visible;
+    width: 75%;
+}
 .form-control{
-    line-height: 1.7;
+    line-height: 1.9;
+    border: 0;
     border-radius: 6px;
 }
 .header-img{
