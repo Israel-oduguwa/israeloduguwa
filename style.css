@@ -3,7 +3,7 @@
     padding:0;
 }
 .navGap{
-    gap:40px
+    gap:40px;
 }
 body{
     color:#110F31!important;
@@ -11,11 +11,17 @@ body{
     font-family: 'Inter', sans-serif;
     /* font-family: 'Poppins', sans-serif; */
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Mark Pro', sans-serif;
+}
 h2{
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Mark Pro', sans-serif;
 }
 h5{
     font-weight: 600;
+    font-size: 1.5rem;
 }
 p{
     line-height: 1.6;
@@ -44,6 +50,9 @@ header{
     background: #eff0f4;
     /* padding-bottom:2rem;  */
 }
+.form-control {
+    border: 0;
+}
 .bg-dark{
     background-color: #0f1221!important;
 }
@@ -65,17 +74,17 @@ a{
     color: #110F31;
 }
 .nav-item a:hover{
-    color: #7462e1
+    color: #7462e1;
 }
 .social-links a {
     display: inline-flex;
     margin: 0 16px 0 0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color:#110F31!important;
     text-align: center;
 }
 .social-links a:hover {
-   color: #7462e1
+   color: #7462e1;
 }
 .order{
     order: -1;
@@ -90,7 +99,13 @@ a{
     line-height: 1.7;
     border-radius: 6px;
 }
+.header-img{
+    width: 100%;
+}
 @media (min-width: 768px){
+    .header-img{
+        width: 95%;
+    }
     .order {
         order: 0;
     }
@@ -100,10 +115,19 @@ a{
     .no-text-center-sm{
         text-align: center!important;
     }
+    h2{
+        font-weight: 800;
+        font-size: 3rem;
+        font-family: 'Mark Pro', sans-serif;
+    }
 }
-
 .about-pad{
     padding:5rem 0;
+}
+@media (min-width: 1200px){
+.display-1 {
+    font-size: 5.5rem;
+}
 }
 .primary-btn{
     appearance: button;
@@ -158,4 +182,28 @@ a{
 .about-services{
     background: #0f1221;
     color:#eaefff;
+}
+
+/* Fonts */
+/* Fira Sans Bold */
+@font-face {
+    font-family: "Mark Pro";
+    src: url('font/Mark-Pro-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Mark pro';
+    src: url('font/MarkPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
+@font-face {
+    font-family: 'Mark pro';
+    src: url('font/Mark-Pro-Heavy.ttf');
+    font-weight: 700;
+    font-style: normal;
 }
