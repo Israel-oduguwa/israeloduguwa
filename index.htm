@@ -107,6 +107,47 @@
 					<div style="max-width: 800px; margin: 10px auto 40px auto">
 						<h2 class="mb-3">About Me, What I Do</h2>
 						<p class=" mb-2">
+							Hello! 👋 My name is Israel Oduguwa. I am a seasoned Full-Stack JavaScript Developer with over five years of experience in crafting performant, functional, and elegant web applications.
+						</p>
+						<p class=" mb-2">
+							My journey into programming began in early 2015 with an interest in mobile game development. From there, I explored Scratch, Python, and even completed Harvard's CS50 course, gaining an introduction to computer science algorithms and problem-solving techniques. I took a deep dive into web development, mastering HTML, CSS, and JavaScript, later in 2015. Over the years, I have had the privilege of collaborating with businesses and startups, creating accessible and scalable web applications. In addition to my development work, I also enjoy UI design, creating aesthetically pleasing and user-friendly designs in Figma.
+						</p>
+						<p class="mb-2">
+							As a Full-Stack Developer, I wear many hats. I work both as a Front-End and a Back-End Developer. I strive to continue learning, pushing boundaries, and working on projects that interest and challenge me. I pride myself on being a fiery, inventive, and innovative individual with the ability to inspire and motivate others with my vision. My relentless drive to act on my ideas has honed my ability to learn and pick up new concepts and skills quickly.
+						</p>
+						<p class="mb-2">
+							Here are some of the web technologies and languages that I use:
+						</p>
+						<div class="row">
+							<div style="align-items: baseline;" class="col-md-3 col-6 d-flex">
+								<span style="width: 20%; padding: 0 6px 0 0;"><img style="width: 100%" src="/assets/Js logo.svg" alt="JavaScript"></span>
+								<p style="width: 80%">JavaScript</p>
+							</div>
+							<div style="align-items: baseline;" class="col-md-3 col-6 d-flex">
+								<span style="width: 20%; padding: 0 6px 0 0;"><img style="width: 100%" src="/assets/Typescript_logo_2020.svg" alt="aws"></span>
+								<p style="width: 80%">TypeScript</p>
+							</div>
+							<div style="align-items: baseline;" class="col-md-3 col-6 d-flex">
+								<span style="width: 20%; background:white; padding: 0 6px 0 0;"><img style="width: 100%" src="/assets/Nextjs-logo.svg" alt="aws"></span>
+								<p style="width: 80%">React(Next).JS</p>
+							</div>
+							<div style="align-items: baseline;" class="col-md-3 col-6 d-flex">
+								<span style="width: 20%; background:white; padding: 0 6px 0 0;"><img style="width: 100%" src="/assets/Node.js_logo.svg" alt="aws"></span>
+								<p style="width: 80%">Node(Express).JS</p>
+							</div>
+							<div style="align-items: baseline;" class="col-md-3 col-6 d-flex">
+								<span style="width: 20%; background:white; padding: 0 6px 0 0;"><img style="width: 100%" src="/assets/Amazon_Web_Services_Logo.svg" alt="aws"></span>
+								<p style="width: 80%">AWS Service</p>
+							</div>
+							<div style="align-items: baseline;" class="col-md-3 col-6 d-flex">
+								<span style="width: 20%; padding: 0 6px 0 0;"><img style="width: 100%" src="/assets/Google-cloud-platform.svg" alt="aws"></span>
+								<p style="width: 80%">Google Cloud Platform</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div style="max-width: 800px; margin: 10px auto 40px auto">
+						<h2 class="mb-3">About Me, What I Do</h2>
+						<p class=" mb-2">
 								Hello! 👋, My name is Israel Oduguwa.
 								 I am a full-stack JavaScript 
 								 developer with 5+ years of experience in building performant, 
@@ -154,7 +195,7 @@
 								<p style="width: 80%">Google Cloud Platform</p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div class="col-md-12 mt-5">
 					<div>
@@ -221,10 +262,15 @@
 		<div class="container mt-5">
 			<div class="mt-5 contacts">
 				<h2 class="">Contact Me</h2>
-				<p class="mb-3">
-					If you'd like to chat about a project, or just have a 
-					question, message me
-				</p>
+				<p class="mb-3" style="font-size: 18px; color: #333; line-height: 1.6;">
+					Do you have a project to discuss or a question on your mind? I'm all ears for your needs. 
+					Feel free to drop me a message or give me a call at <span> </span>
+					<a href="tel:+2348108517789" style="color: #007BFF; text-decoration: none;">
+					  
+					  +2348108517789
+					</a>
+				  </p>
+				  
 				<div class="row">
 					<div class="col-md-12 mb-md-0 mb-5">
 						<form  id="contact-form" name="contact-form" data-netlify="true" method="POST">
@@ -309,15 +355,19 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-								<p>
-									© 2022 Israel Oduguwa - All right Reserved.
-								</p>
+							<p id="copyright"></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
+	<p id="copyright"></p>
+
+<script>
+  document.getElementById("copyright").innerHTML = 
+    `&copy; ${new Date().getFullYear()} Israel Oduguwa - All right Reserved.`;
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 <script src="app.js"></script>
 </body>
